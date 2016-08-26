@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Project SYSTEM "Project-5.1.dtd">
+<!-- eric project file for project spiderengineer -->
+<!-- Saved: 2015-05-13, 19:33:13 -->
+<!-- Copyright (C) 2015 ,  -->
+<Project version="5.1">
+  <Language>en_US</Language>
+  <Hash>5db4d5160664e744c5d3ca67c537849d0694de3e</Hash>
+  <ProgLanguage mixed="0">Python3</ProgLanguage>
+  <ProjectType>PyQt5</ProjectType>
+  <Description></Description>
+  <Version>0.1</Version>
+  <Author></Author>
+  <Email></Email>
+  <Eol index="3"/>
+  <Sources>
+    <Source>__init__.py</Source>
+    <Source>Ui_spidermainwidow.py</Source>
+    <Source>spider.py</Source>
+    <Source>crawler.py</Source>
+    <Source>note.py</Source>
+    <Source>DataBase.py</Source>
+    <Source>source.py</Source>
+    <Source>threadings.py</Source>
+    <Source>ui_paint.py</Source>
+    <Source>analyze.py</Source>
+    <Source>RW_txt.py</Source>
+  </Sources>
+  <Forms>
+    <Form>spidermainwidow.ui</Form>
+  </Forms>
+  <Translations/>
+  <Resources/>
+  <Interfaces/>
+  <Others/>
+  <Vcs>
+    <VcsType>None</VcsType>
+  </Vcs>
+  <FiletypeAssociations>
+    <FiletypeAssociation pattern="*.idl" type="INTERFACES"/>
+    <FiletypeAssociation pattern="*.py" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.py3" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.pyw" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.pyw3" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.qm" type="TRANSLATIONS"/>
+    <FiletypeAssociation pattern="*.qrc" type="RESOURCES"/>
+    <FiletypeAssociation pattern="*.ts" type="TRANSLATIONS"/>
+    <FiletypeAssociation pattern="*.ui" type="FORMS"/>
+  </FiletypeAssociations>
+</Project>

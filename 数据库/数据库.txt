@@ -1,0 +1,141 @@
+Database名：secrawler
+	技能都没有给数据库的名称，要求不能有中文，又好认出是什么
+
+"1.嵌入式软件工程师":"embedded",				数据类型
+	0.id:id							int
+	13.--工资：						text
+	1."C|C\+\+",:						int	
+	2."Linux",:						int
+	3."gui[编].*?[程].*?",:					int				
+	4."(Socket)|网络[(Socket)]?[编]?[程]?",:		int
+	5."android",						int
+	7."(ARM7)|(Cortex-M3)[内]?[核]?",:			int
+	8."Orancle|数据库",:					int
+	9."RTOS",						int
+	10."PCB[设]?[计]?",:					int
+	11."[通]?[讯]?协议",:					int
+	12."多线程|多进程":					int
+	
+
+"2.JAVA软件工程师":"java",
+	0.id:id
+	22.--工资：
+	1."Java Web",
+	2."JSP",
+	3."Servlet",
+	4."Struts2",
+	5."Ajax",
+	6."Javascript",
+	7."html|CSS",
+	8."Websphere",
+	9."Weblogic",
+	10."Jboss",
+	11."Tomcat",
+	12."Linux|Unix",
+	13."XML Schema",
+	14."UML","socket[编]?[程]?",
+	15."Jbuilder",
+	16."Eclipse",
+	17."Tomcat",
+	18."C|C\+\+",
+	19."(J2EE)|(struts)|(spring)|(hibernate)[框]?[架]?",
+	20."(基于JAVA平台的)?B/S(架构)?",
+	21."Oralce|MS SQL|mysql"
+	 
+"3.WEB应用软件工程师":"web" , 
+	0.id:id
+	10.--工资：
+	1."ASP.NET(C#)",
+	2."SQLserver",
+	3."mysql",
+	5."html5|css3",
+	6."Extjs",
+	7."Ext.net",
+	8."jquery",
+	9."bootstrap"
+"4.IOS软件工程师":"ios",
+	0.id:id
+	7.--工资：
+	1."Objective C",
+	2."Cocoa[编]?[程]?",
+	3."iPhone SDK",
+	4."底层API调用",
+	5."macos x",
+	6."xcode" 
+"5..Net软件工程师":"net", 
+	0.id:id
+	8.--工资：
+	1."ASP\.NET(C#)",
+	2."Java[ ]?Script",
+	3."SQLserver","mysql",
+	4."MVC开发模式|三层机制",
+	5."html5|html5\+css3",
+	6."Extjs","Ext.net",
+	7."jquery","bootstrap",
+	8;"b/s","vs.net2003",
+	9."Visual Studio.NET",
+	10."C#2.0",
+	11."HTML",
+	12."WebServices",
+	13."jquery",
+	14."div+css",
+	15."ORACLE",
+	16."SQL Sever"
+"6.C#软件工程师":"ch",
+	0.id:id
+	1.--工资：
+	2."Visual Studio",
+	3."SQLServer",
+	4.".NET",
+	5."C#[语]?[言]?",
+	6."WinForm[开]?[发]?"
+"7.PHP软件工程师":"php",
+	0.id:id
+	1.--工资：
+	2."PHP[编]?[程]?",
+	3."MYSQL",
+	4."HTML5"，
+	5."DIV\+CSS",
+	6."AJAX",
+	7."JQuery",
+	8."Smarty"
+"8.Android开发工程师":"android",
+	0.id:id
+	1--工资：
+	2."Android OS",
+	3."Framework",
+	4."Socket",
+	5."TCP/IP",
+	6."http/https",
+	7."Linux",
+	8."JNI"
+"9.C++软件工程师":"cadd"
+	0.id:id
+	14.--工资：
+	1."Unix",
+	2."C#",
+	3."SQL server",
+	4."ProjectWis",
+	5.".Net",
+	6."Visual studio",
+	7."Oracle",
+	8."SQL Server",
+	9."TCP/IP"，
+	10."Windows API",
+	11."MFC",
+	12."socket",
+	13."LINUX"
+
+10.已经访问过的链接表：historyurl
+	0.id: id
+	1.工程师名： name
+	2.url: url
+
+按以下格式建表，顺序不能乱（或者调了顺序要说明）：
+10.	create table cpp(
+		id  int auto_increment primary key,
+		gongzi text,
+		unix 	int,
+		caa	int,
+		sql	int,
+		prowis	int);

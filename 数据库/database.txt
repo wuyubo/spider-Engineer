@@ -1,0 +1,36 @@
+create database crawler
+
+create table engineurl(
+	id int auto_increment primary key,
+	name varchar(100),
+	url  text)
+
+create table qianrushi(
+	id  int auto_increment primary key,
+	name varchar(100),
+	c	 int,
+	cjj	 int,
+	gui	 int,
+	wanluo	 int,
+	linux 	 int,
+	android  int,
+	jidinghe int,
+	orancle	 int,
+	rtos	 int);
+
+
+create table java(
+	id int auto_increment primary key,
+	name varchar(100),
+	Java int,
+	JavaWeb int,
+	socket int,
+	ORACLE int,
+	Jbuilder int,
+	Eclipse int,
+	Tomcat int,
+	CCjj int,
+	html int,
+	ssh int,
+	bs int,
+	RationalRose int);

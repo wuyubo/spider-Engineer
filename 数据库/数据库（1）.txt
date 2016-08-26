@@ -1,0 +1,145 @@
+Database名：secrawler
+	技能都没有给数据库的名称，要求不能有中文，又好认出是什么
+
+"1.嵌入式软件工程师":"embedded",				数据类型
+	0.id:id							int
+	13.--工资：						text
+	1."C|C\+\+",:						int	
+	2."Linux",:						int
+	3."gui[编].*?[程].*?",:					int				
+	4."(Socket)|网络[(Socket)]?[编]?[程]?",:		int
+	5."android",						int
+	7."(ARM7)|(Cortex-M3)[内]?[核]?",:			int
+	8."Orancle|数据库",:					int
+	9."RTOS",						int
+	10."PCB[设]?[计]?",:					int
+	11."[通]?[讯]?协议",:					int
+	12."多线程|多进程":					int
+	
+
+"2.JAVA软件工程师":"java",					数据类型
+	0.id:id							int
+	22.--工资：						text
+	1."Java Web",						int
+	2."JSP",						int
+	3."Servlet",						int
+	4."Struts2",						int
+	5."Ajax",						int
+	6."Javascript",						int
+	7."html|CSS",						int
+	8."Websphere",						int
+	9."Weblogic",						int
+	10."Jboss",						int
+	11."Tomcat",						int
+	12."Linux|Unix",					int
+	13."XML Schema",					int
+	14."UML","socket[编]?[程]?",				int
+	15."Jbuilder",						int
+	16."Eclipse",						int
+	17."Tomcat",						int
+	18."C|C\+\+",						int
+	19."(J2EE)|(struts)|(spring)|(hibernate)[框]?[架]?",	int
+	20."(基于JAVA平台的)?B/S(架构)?",			text
+	21."Oralce|MS SQL|mysql"				int
+	 
+"3.WEB应用软件工程师":"web" , 					数据类型
+	0.id:id							int
+	10.--工资：						text
+	1."ASP.NET(C#)",					int
+	2."SQLserver",						int
+	3."mysql",						int
+	5."html5|css3",						int
+	6."Extjs",						int
+	7."Ext.net",						int
+	8."jquery",						int
+	9."bootstrap"						int
+
+"4.IOS软件工程师":"ios",					数据类型
+	0.id:id							int
+	7.--工资：						text
+	1."Objective C",					int
+	2."Cocoa[编]?[程]?",					int
+	3."iPhone SDK",						int
+	4."底层API调用",					text
+	5."macos x",						int
+	6."xcode" 						int
+
+"5..Net软件工程师":"net",					数据类型 
+	0.id:id							int
+	8.--工资：						text
+	1."ASP\.NET(C#)",					int
+	2."Java[ ]?Script",					int
+	3."SQLserver","mysql",					int
+	4."MVC开发模式|三层机制",				text
+	5."html5|html5\+css3",					int
+	6."Extjs","Ext.net",					int
+	7."jquery","bootstrap",					int
+	8;"b/s","vs.net2003",					int
+	9."Visual Studio.NET",					int
+	10."C#2.0",						int
+	11."HTML",						int
+	12."WebServices",					int
+	13."jquery",						int
+	14."div+css",						int
+	15."ORACLE",						int
+	16."SQL Sever"						int
+
+"6.C#软件工程师":"ch",						数据类型
+	0.id:id							int
+	1.--工资：						text
+	2."Visual Studio",					int
+	3."SQLServer",						int
+	4.".NET",						int
+	5."C#[语]?[言]?",					int
+	6."WinForm[开]?[发]?"					int
+
+"7.PHP软件工程师":"php",					数据类型
+	0.id:id							int
+	1.--工资：						text
+	2."PHP[编]?[程]?",					int
+	3."MYSQL",						int
+	4."HTML5"，						int
+	5."DIV\+CSS",						int
+	6."AJAX",						int
+	7."JQuery",						int
+	8."Smarty"						int
+
+"8.Android开发工程师":"android",				数据类型
+	0.id:id							int
+	1--工资：						text
+	2."Android OS",						int
+	3."Framework",						int
+	4."Socket",						int
+	5."TCP/IP",						int
+	6."http/https",						int
+	7."Linux",						int
+	8."JNI"							int
+
+"9.C++软件工程师":"cadd"					数据类型
+	0.id:id							int
+	14.--工资：						text
+	1."Unix",						int
+	2."C#",							int
+	3."SQL server",						int
+	4."ProjectWis",						int
+	5.".Net",						int
+	6."Visual studio",					int
+	7."Oracle",						int
+	8."SQL Server",						int
+	9."TCP/IP"，						int
+	10."Windows API",					int
+	11."MFC",						int
+	12."socket",						int
+	13."LINUX"						int
+
+10.已经访问过的链接表：historyurl
+	0.id: id
+	1.工程师名： name
+	2.url: url
+
+按以下格式建表，顺序不能乱（或者调了顺序要说明）：
+10.	create table historyurl(
+		id 	int auto_increment primary key,
+		name 	text,	
+		url 	text);
+

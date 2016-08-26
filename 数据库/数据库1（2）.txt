@@ -1,0 +1,152 @@
+Database名：secrawler
+	技能都没有给数据库的名称，要求不能有中文，又好认出是什么
+
+
+
+
+10.已经访问过的链接表：historyurl
+	0.id: id
+	1.工程师名： name
+	2.url: url
+
+按以下格式建表，顺序不能乱（或者调了顺序要说明）：
+	create table embedded(
+		id  int auto_increment primary key,
+		gongzi 		text,
+		ccpp 		int,
+		linux		int,
+		gui		int,
+		socket		int,
+		android 	int,
+		arm 		int,
+		orancle		int,
+		rtos		int,
+		pcb		int,
+		txxy		int,
+		dxc 		int);
+
+	create table java(
+		id  int auto_increment primary key,
+		gongzi 		text,
+		javaweb		int,
+		jsp		int,
+		servlet		int,
+		ajax		int,
+		javascript	int,
+		htmlcss		int,
+		websphere	int,
+		weblogic	int,
+		jboss		int,
+		tomcat	 	int,
+		linux		int,
+		unix		int,
+		xml		int,
+		uml		int,
+		socket		int,
+		jbuilder	int,
+		eclipse		int,
+		ccpp		int,
+		jee		int,
+		struts		int,
+		spring		int,
+		hibernate 	int,
+		bs		int,
+		oralce		int,
+		mssql		int,
+		mysql		int);
+
+	create table web(
+		id  int auto_increment primary key,
+		gongzi 		text,
+		aspnet		int,
+		sqlserver	int,
+		mysql		int,
+		htmlcss		int,
+		extjs		int,
+		extnet		int,
+		jquery		int,
+		bootstrap	int);
+
+	create table ios(
+		id  int auto_increment primary key,
+		gongzi 		text,
+		objectivec	int,
+		cocoa		int,
+		iphonesdk	int,
+		api		int,
+		macosx		int,
+		xcode		int);
+
+	create table net(
+		id  int auto_increment primary key,
+		gongzi 		text,
+		aspnet		int,
+		javascript	int,
+		sqlserver	int,
+		mysql		int,
+		jquery		int,
+		mvc		int,
+		htmlcss		int,
+		extjs		int,
+		extnet		int,
+		bootstrap	int,
+		bs	 	int,
+		vsnet		int,
+		csharp		int,
+		html		int,
+		webservices	int,
+		divcss		int,
+		oracle		int
+		);
+
+	create table ch(
+		id  int auto_increment primary key,
+		gongzi 		text,
+		vs		int,
+		sqlserver	int,
+		net		int,
+		csharp		int,
+		winform		int);
+
+	create table php(
+		id  int auto_increment primary key,
+		gongzi 		text,
+		php		int,
+		mysql		int,
+		html		int,
+		divcss		int,
+		ajax		int,
+		jquery		int,
+		smarty		int);
+
+	create table android(
+		id  int auto_increment primary key,
+		gongzi 		text,
+		androidos	int,
+		framework	int,
+		socket		int,
+		tcpip		int,
+		httphttps	int,
+		linux		int,
+		jni		int);
+
+	create table cpp(
+		id  int auto_increment primary key,
+		gongzi 		text,
+		unix		int,
+		csharp		int,
+		sqlserver	int,
+		projectwis	int,
+		net		int,
+		vs		int,
+		oracle		int,
+		tcpip		int,
+		windowsapi	int,
+		mfc	 	int,
+		socket		int,
+		linux		int);
+
+create table historyurl(
+		id 	int auto_increment primary key,
+		name 	text,	
+		url 	text);
